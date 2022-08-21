@@ -21,7 +21,7 @@ var PreloadState = {
     },
 
     update: function() {
-        this.logo.angle += 0.2
+        this.logo.angle += 2
     },
 
     create: function() {
