@@ -29,7 +29,7 @@ var PreloadState = {
             font: 'bold 50px Arial',
             fill: '#000'
         }
-        this.preloadText = this.add.text(this.world.centerX, this.game.world.centerY + 320, 'Please wait while the assets \n \xa0 \xa0 \xa0 is \xa0 \xa0 \xa0  being \xa0 \xa0 \xa0 load. \n \xa0 \xa0 \xa0 \xa0 Thank \xa0 \xa0 \xa0  you :)', style)
+        this.preloadText = this.add.text(this.world.centerX, this.game.world.centerY + 100, 'Please wait while the assets \n \xa0 \xa0 \xa0 is \xa0 \xa0 \xa0  being \xa0 \xa0 \xa0 load. \n \xa0 \xa0 \xa0 \xa0 Thank \xa0 \xa0 \xa0  you :)', style)
         this.preloadText.anchor.setTo(0.5,0.5)
         this.state.start('GameState');
     }
