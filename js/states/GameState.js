@@ -23,7 +23,7 @@ var GameState = {
 
         this.backgroundSound = game.add.audio('bg-music')
         this.backgroundSound.play()
-        this.backgroundSound.volume = 0.05
+        this.backgroundSound.volume = 0.2
         this.backgroundSound.loop = true
 
         this.leftArrow = this.game.add.sprite(game.width / 5, this.game.world.centerY + 100, 'arrow')
